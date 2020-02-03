@@ -12,8 +12,8 @@ Note that MPID-drop dataset and DerainDropGAN dataset are same.
 #### Rain100H & Rain100L http://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html
 
 ## train 
-python train.py --net='nas' --ssimloss --blocks=18 --ss=3
+```python train.py --net='nas' --ssimloss --blocks=18 --ss=3```
 
 ## test
-python test.py --net='nas' --ssimloss --blocks=18 --ss=3
+```python test.py --net='nas' --ssimloss --blocks=18 --ss=3```
 
