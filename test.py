@@ -5,8 +5,8 @@ def test(net,loader_test):
 		print(f'resume from {opt.model_dir}')
 		ckp=torch.load(opt.model_dir)
 		net.load_state_dict(ckp['model'])
-		step=ckp['step']
-		print(f'---step:{step} ---')
+	else :
+		raise IOError('No such file')
 	net.eval()
 	torch.cuda.empty_cache()
 	ssims=[]
@@ -33,4 +33,3 @@ if __name__ == "__main__":
 	ssim,psnr=test(net,loader_test)
 	print(f'ssim : {ssim} | psnr : {psnr}')
 	
-
