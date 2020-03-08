@@ -1,4 +1,4 @@
-`This repository is for rebuttal purposes only, not the final version.`
+`This repository is for double blind reviewing only, not the final version.`
 
 ## Dataset
 
